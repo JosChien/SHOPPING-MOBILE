@@ -1,0 +1,227 @@
+/*header*/
+.header{
+  background: lightgoldenrodyellow;
+  box-shadow: 0px 1px 5px grey;
+  font-family: 'Oswald', sans-serif;
+}
+.padding{
+  padding:0
+}
+.FloatLeft{
+  margin-left: 0!important;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  padding-left: 40px;
+}
+.link{
+  color: rgba(0,0,0,.5)
+}
+.link:hover{
+  text-decoration: none;
+  color: black
+}
+.dropdown-item{
+  color:rgba(0,0,0,.5)
+}
+.dropdown-item:active{
+  background-color: white
+}
+
+@media only screen and (max-width: 600px){
+  .customNavbar:nth-child(4){
+    order:2;
+  }
+}
+button:focus{
+  outline:whitesmoke
+}
+.button{
+  display: flex;
+  background: lightgoldenrodyellow;
+  outline: none;
+  border: none;
+  position: relative;
+}
+.countNumber{
+  position: absolute;
+  left: 30px;
+  color: white;
+  top: -12px;
+  font-size: 12px;
+  background: red;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+}
+.customIcon{
+  font-size: 25px;
+  margin-right: 5px
+}
+/* CONTENT */
+.title{
+  display: flex;
+  justify-content: center;
+  font-family: 'Mansalva', cursive;
+  margin: 25px 0;
+  text-transform: uppercase
+}
+.CustomItemCard{
+  margin-bottom: 10px
+}
+.customCard:hover{
+  box-shadow: 0px 0px 4px gray;
+  transform: translate(2px, -4px);
+  transition-duration: 1s
+}
+.customImg{
+  height: 240px;
+  box-sizing: border-box;
+  padding: 10px 30px;
+}
+.customCardBody{
+  padding: 10px;
+  font-size: 14px;
+}
+.customCardTitle{
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.customSubtitle{
+  font-weight: 700;
+  color: red;
+  font-size: 18px;
+}
+.customText{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 20px; 
+}
+.add{
+  width: 50%;
+  margin: 10px 
+}
+/*Cart*/
+.tableHeader{
+  font-family:'Oswald', sans-serif;
+  font-weight: 700;
+}
+.cartImg{
+  height: 65px;
+}
+.table td, .table th{
+  vertical-align: middle
+}
+.cartName{
+  font-weight: 500;
+  font-style: italic
+}
+.quantity span{
+  margin: 0 10px
+}
+.quantity button{
+  padding: 0 8px
+}
+.cartIcon{
+  font-size: 20px;
+  cursor: pointer;
+}
+.total{
+  width: 20%;
+  float: right;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+/*Details*/
+.detail-title{
+  font-family: 'Oswald', sans-serif;
+  margin-top: 30px;
+  text-transform: uppercase;
+  border-bottom: 1px solid palegoldenrod;
+  color: #000000ab;
+}
+.details-content{
+  display: flex;
+  justify-content: space-around
+}
+.details-link{
+  color: black;
+}
+.details-link:hover{
+  color: black;
+  text-decoration: none
+}
+.detailsCol2{
+  width: 30%
+}
+.detailsCol2 span{
+  color: red;
+  font-size: 25px;
+}
+.detailsCol2 h5{
+  margin: 10px 0 10px
+}
+.detail-add{
+  color: darkslategray;
+  background: lightgoldenrodyellow;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.detailsCol2 h3{
+  color: red;
+  margin: 10px 0;
+  text-transform: uppercase
+}
+.detailsCol2 p{
+  text-align: justify;
+  font-family: 'Oswald', sans-serif;
+  color: gray;
+  font-size: 17px;
+  letter-spacing: 0.25px;
+}
+.parameter{
+  font-family: 'Oswald', sans-serif;
+  width: 30%
+}
+.parameter h4{
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: lightcoral;
+  font-style: italic;
+}
+.parameter ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: gray;
+  display: table;
+  width: 100%
+}
+.parameter ul li{
+  font-size: 16px;
+  border-top: 1px solid #80808045;
+  padding: 10px 0;
+  width: 100%;
+  display: table
+}
+.parameter ul li span{
+  display: table-cell;
+  width: 40%
+}
+.parameter li div{
+  display: table-cell
+}
